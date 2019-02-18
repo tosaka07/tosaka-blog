@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
+import logo from '../img/logo.svg'
 
 export default class IndexPage extends React.Component {
   render() {
@@ -10,6 +11,15 @@ export default class IndexPage extends React.Component {
 
     return (
       <Layout>
+        {/* <section class="hero is-primary is-medium">
+          <div class="hero-body">
+            <div class="container">
+              <h1 class="title">
+                <img src={logo} alt="Logo" />
+              </h1>
+            </div>
+          </div>
+        </section> */}
         <section className="section">
           <div className="container">
             <div className="content">
