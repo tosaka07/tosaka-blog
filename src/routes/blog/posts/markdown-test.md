@@ -1,6 +1,8 @@
 ---
 title: Markdown Test Page
 date: 2019-01-01T09:44:04.563Z
+tags:
+  - demo
 ---
 
 A sample page with the most common elements of an article, including headings, paragraphs, lists, and images.
