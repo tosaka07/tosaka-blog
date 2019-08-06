@@ -42,6 +42,26 @@
 
 <svelte:head>
   <title>{post.title}</title>
+  <meta name="description" content="{post.excerpt}" />
+  <!-- <meta name="keywords" content="{post.metadata.keywords}"/> -->
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.tosaka.net/blog/{post.slug}">
+  <meta property="og:title" content="{post.title}">
+  <meta property="og:description" content="{post.excerpt}">
+  <!-- {#if post.metadata.thumb}
+  <meta property="og:image" content="{post.metadata.thumb}">
+  {/if} -->
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://www.tosaka.net/blog/{post.slug}">
+  <meta property="twitter:title" content="{post.metadata.title}">
+  <meta property="twitter:description" content="{post.excerpt}">
+  <!-- {#if post.metadata.thumb}
+  <meta property="twitter:image" content="{post.metadata.thumb}">
+  {/if} -->
 </svelte:head>
 
 <header>
