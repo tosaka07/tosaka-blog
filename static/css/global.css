@@ -17,35 +17,35 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 4em;
+  font-size: 2em;
   margin: 0 0 1em 0;
 }
 
 h2 {
-  margin: 1.6em 0 0 0;
-  font-size: 1.8em;
+  margin: 1.4em 0 0 0;
+  font-size: 1.6em;
 }
 
 h3 {
-  font-size: 1.5em;
-}
-
-h4 {
   font-size: 1.4em;
 }
 
-h5 {
+h4 {
   font-size: 1.3em;
 }
 
-h6 {
+h5 {
   font-size: 1.2em;
 }
 
+h6 {
+  font-size: 1em;
+}
+
 p, ul, ol {
-  font-size: 1.2rem;
-  line-height: 1.65em;
-  margin: 1.2em 0;
+  font-size: 1rem;
+  line-height: 1.45em;
+  margin: 1em 0;
 }
 
 ol, ul {
@@ -65,24 +65,24 @@ li p {
 
 a {
   color: inherit;
-  transition: color linear .15s;
+  /* transition: color linear .15s; */
 }
 
-a:hover {
+/* a:hover {
   color: #fd6378;
-}
+} */
 
 p a {
-  text-decoration: none;
-  box-shadow: inset 0 -0.12em 0 #fd6378;
-  -webkit-transition: box-shadow .2s ease-in-out, color .2s ease-in-out;
-  transition: box-shadow .2s ease-in-out, color .2s ease-in-out;
+  text-decoration: underline;
+  /* box-shadow: inset 0 -0.12em 0 #fd6378; */
+  /* -webkit-transition: box-shadow .2s ease-in-out, color .2s ease-in-out;
+  transition: box-shadow .2s ease-in-out, color .2s ease-in-out; */
 }
 
-p a:hover {
+/* p a:hover {
   box-shadow: inset 0 -1.5em 0 #fd6378;
   color: #FFF;
-}
+} */
 
 img {
   max-width: 100%;
@@ -173,7 +173,7 @@ td {
 
 @media (max-width: 1020px) {
   h1 {
-    font-size: 3em;
+    font-size: 2em;
   }
 
   .content h1 {
@@ -187,7 +187,7 @@ td {
   }
 
   p, ul, ol {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin: 1em 0;
   }
 }
