@@ -22,8 +22,8 @@ CIは `Bitrise` を使い、自動化ツールは Fastlane を使う。
 
 ## 2. Fastlane
 
-**App Distribution** バイナリを送るには、 firebase-tools を使う必要があるが、 Fastlane でも送れるようにプラグインを作ってくれているため今回はそちらでやる。 
-（でも結局 firebase-cli を叩けるように fastlane の Action に実行PATHを渡す必要がある。） 
+**App Distribution** へバイナリを送るには firebase-tools を使う必要があるが、 Fastlane でも送れるようにプラグインを作ってくれているため、今回はそちらでやる。 
+（でも結局 firebase-cli を叩けるように fastlane の Action に実行PATHを渡す必要がある） 
 
 
 ```
